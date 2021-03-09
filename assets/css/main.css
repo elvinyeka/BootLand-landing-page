@@ -9,6 +9,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h2 {
     font-size: 32px !important;
     font-weight: 400 !important;
@@ -43,6 +47,7 @@ a:hover {
     font-size: 24px !important;
     transition: all 0.3s ease-in-out;
     font-family: 'Monoton', cursive;
+    /* margin-right: 2rem !important; */
 }
 
 .navbar .navbar-brand:hover {
@@ -50,7 +55,7 @@ a:hover {
 }
 
 .navbar.bg-dark {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #121418;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -241,6 +246,7 @@ a:hover {
 /* Case-Study section starts  */
 
 #caseStudy {
+    padding-top: 4.5rem !important;
     background-color: #f4f5f9;
     line-height: 28px;
 }
@@ -386,6 +392,7 @@ a:hover {
 /* Contact section starts  */
 
 #contact {
+    padding-top: 4.5rem !important;
     background-color: #f4f5f9;
     color: #404444;
 }
@@ -424,7 +431,26 @@ a:hover {
 }
 
 #contact .btn:hover {
-    background-color: #035181;
+    background-color: #111416;
+}
+
+
+/* Contact section ends  */
+
+
+/* Footer section starts  */
+
+#footer {
+    background-color: #121418;
+    color: #fff;
+}
+
+#footer .fab {
+    color: #919191;
+}
+
+#footer .fab:hover {
+    color: #fff;
 }
 
 
