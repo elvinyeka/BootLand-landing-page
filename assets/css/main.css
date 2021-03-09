@@ -295,6 +295,10 @@ a:hover {
     padding-right: 0;
 }
 
+#portfolio img {
+    width: 600px;
+}
+
 #portfolio .fas {
     font-family: 24px;
     margin-bottom: 20px;
@@ -377,3 +381,51 @@ a:hover {
 
 
 /* Carousel section ends  */
+
+
+/* Contact section starts  */
+
+#contact {
+    background-color: #f4f5f9;
+    color: #404444;
+}
+
+#contact h2 {
+    color: #1886C7;
+    font-size: 40px !important;
+}
+
+#contact a {
+    color: #1886C7;
+}
+
+#contact a:hover {
+    color: #035181;
+}
+
+#contact .input-group-text {
+    width: 50px;
+    border: 0;
+    border-radius: 0;
+    background-color: #1886C7;
+    color: #fff;
+}
+
+#contact input,
+#contact textarea {
+    border-radius: 0;
+}
+
+#contact .btn {
+    background-color: #1885C7;
+    border-color: #1885C7;
+    border-radius: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+#contact .btn:hover {
+    background-color: #035181;
+}
+
+
+/* Contact section ends  */
