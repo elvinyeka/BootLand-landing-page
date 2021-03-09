@@ -347,3 +347,33 @@ a:hover {
 
 
 /* Portfolio section ends  */
+
+
+/* Carousel section starts  */
+
+#carousel {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/carousel-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#carousel .quote {
+    color: rgba(24, 134, 199, 0.6);
+    margin-bottom: 30px;
+}
+
+#carousel img {
+    width: 150px;
+    height: 150px;
+    opacity: 0.1;
+}
+
+#carousel .blockquote-footer {
+    color: #1886C7;
+}
+
+
+/* Carousel section ends  */
