@@ -4,8 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 * {
-    /* font-family: 'Dosis', sans-serif; */
-    /* font-family: 'Roboto Mono', monospace; */
+    /* *font-family: 'Dosis', sans-serif; */
+    /* *font-family: 'Roboto Mono', monospace; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -36,7 +36,7 @@ a:hover {
 }
 
 
-/* navbar section starts */
+/* *navbar section starts */
 
 .navbar {
     border-bottom: 1px solid #1885C7;
@@ -69,10 +69,10 @@ a:hover {
 }
 
 
-/* navbar section ends */
+/* *navbar section ends */
 
 
-/* header section starts */
+/* *header section starts */
 
 #header {
     background: url(../images/bg.jpg) no-repeat;
@@ -82,7 +82,7 @@ a:hover {
 }
 
 #header .row {
-    height: 90vh;
+    height: 100vh;
 }
 
 .overlay {
@@ -113,10 +113,10 @@ a:hover {
 }
 
 
-/* header section ends */
+/* *header section ends */
 
 
-/* Features section starts */
+/* *Features section starts */
 
 #features .fab,
 #features .fas {
@@ -143,10 +143,10 @@ a:hover {
 }
 
 
-/* Features section ends */
+/* *Features section ends */
 
 
-/* About section starts */
+/* *About section starts */
 
 #about .col-md-6 {
     display: inline;
@@ -180,10 +180,10 @@ a:hover {
 }
 
 
-/* About section ends */
+/* *About section ends */
 
 
-/* Team section starts  */
+/* *Team section starts  */
 
 #team .card {
     border: none;
@@ -212,10 +212,10 @@ a:hover {
 }
 
 
-/* Team section ends  */
+/* *Team section ends  */
 
 
-/* We-Do section starts  */
+/* *We-Do section starts  */
 
 #whatWeDo {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/code-bg.jpg);
@@ -239,11 +239,16 @@ a:hover {
     font-size: 40px !important;
 }
 
+#videoModal .modal-dialog {
+    max-width: 85%;
+    margin: 0 auto;
+}
 
-/* We-Do section ends  */
+
+/* *We-Do section ends  */
 
 
-/* Case-Study section starts  */
+/* *Case-Study section starts  */
 
 #caseStudy {
     padding-top: 4.5rem !important;
@@ -291,12 +296,17 @@ a:hover {
 }
 
 
-/* Case-Study section ends  */
+/* *Case-Study section ends  */
 
 
-/* Portfolio section starts  */
+/* *Portfolio section starts  */
 
-#portfolio .col-md-6 {
+#portfolio .col-sm-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#portfolio .col-lg3 {
     padding-left: 0;
     padding-right: 0;
 }
@@ -356,10 +366,10 @@ a:hover {
 }
 
 
-/* Portfolio section ends  */
+/* *Portfolio section ends  */
 
 
-/* Carousel section starts  */
+/* *Carousel section starts  */
 
 #carousel {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/carousel-bg.jpg);
@@ -386,10 +396,10 @@ a:hover {
 }
 
 
-/* Carousel section ends  */
+/* *Carousel section ends  */
 
 
-/* Contact section starts  */
+/* *Contact section starts  */
 
 #contact {
     padding-top: 4.5rem !important;
@@ -435,10 +445,10 @@ a:hover {
 }
 
 
-/* Contact section ends  */
+/* *Contact section ends  */
 
 
-/* Footer section starts  */
+/* *Footer section starts  */
 
 #footer {
     background-color: #121418;
@@ -454,4 +464,63 @@ a:hover {
 }
 
 
-/* Contact section ends  */
+/* *Contact section ends  */
+
+
+/* ?Media Queries starts */
+
+@media screen and (max-width:1200px) {}
+
+@media screen and (max-width:992px) {
+    #header .display-3 {
+        font-size: 2.5rem;
+    }
+    #about .about__pic {
+        width: auto;
+    }
+    #about .about-right {
+        text-align: center;
+        margin-top: 50px;
+    }
+    #about .about__header {
+        border-left: 0;
+    }
+    #about .about-btn {
+        position: relative;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #caseStudy {
+        padding-top: 1.8rem !important;
+    }
+    #caseStudy .case-area {
+        margin-right: 0px;
+        margin-top: 0;
+        line-height: 22px;
+    }
+    #caseStudy .case-img {
+        text-align: center;
+    }
+    #caseStudy .case-pic {
+        margin-left: 0;
+    }
+    #portfolio img {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #header {
+        height: 60vh;
+    }
+    #header .row {
+        height: 60vh;
+    }
+    #header .display-3 {
+        font-size: 1.6rem;
+    }
+    #portfolio img {
+        width: 100%;
+    }
+}
